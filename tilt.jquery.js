@@ -270,7 +270,7 @@
                 axis: $(this).is('[data-tilt-axis]') ? $(this).data('tilt-axis') : null,
                 reset: $(this).is('[data-tilt-reset]') ? $(this).data('tilt-reset') : true,
                 glare: $(this).is('[data-tilt-glare]') ? $(this).data('tilt-glare') : true,
-                maxGlare: $(this).is('[data-tilt-maxglare]') ? $(this).data('tilt-maxglare') : 1,
+                maxGlare: $(this).is('[data-tilt-maxglare]') ? $(this).data('tilt-maxglare') : .5,
             }, options);
 
             // Add deprecation warning & set disableAxis to deprecated axis setting
